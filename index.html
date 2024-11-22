@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Pachi</title>
+    <title>Unity WebGL Player | Pachinko</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Pachi</div>
+        <div id="unity-build-title">Pachinko</div>
       </div>
     </div>
     <script>
@@ -59,12 +59,12 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/PachinkoWeb.loader.js";
       var config = {
-        dataUrl: buildUrl + "/PachinkoWeb.data.unityweb",
-        frameworkUrl: buildUrl + "/PachinkoWeb.framework.js.unityweb",
-        codeUrl: buildUrl + "/PachinkoWeb.wasm.unityweb",
+        dataUrl: buildUrl + "/PachinkoWeb.data.gz",
+        frameworkUrl: buildUrl + "/PachinkoWeb.framework.js.gz",
+        codeUrl: buildUrl + "/PachinkoWeb.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Pachi",
+        productName: "Pachinko",
         productVersion: "0.1",
         showBanner: unityShowBanner,
       };
